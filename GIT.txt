@@ -43,6 +43,24 @@ git rm --cached "file name"
 git rm "filename"
 
 
+git tag
+git tag v0
+git push origin v0
+git checkout v1
+git push  --tags
+git tag -d v0
+git tag --delete v1
+git push origin -d v1
+git push origin --delete v1
+
+
+git stash 
+git stash list
+git stash apply
+git stash pop
+git stash drop
+
+
 
 ------------------------------------------------------------------------------------------------------------------------
 ANT COMMANDS
