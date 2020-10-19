@@ -33,8 +33,10 @@ git push origin --delete branchname  // delete the mranch from remote
 git diff
 git revert
 git revert --continue
-git reset
-git reset --hard  // can not able to reset bask
+git reset               // it will get back to working directory
+git reset --mixed HEAD~  // it will get back to working directory
+git reset --soft HEAD~   // this willbring to staging area
+git reset --hard HEAD~  // can not able to reset bask
 git resetgit push origin master --force
 git log --graph --oneline --decorate
 git branch -a
