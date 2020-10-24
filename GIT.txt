@@ -39,6 +39,7 @@ git reset --soft HEAD~   // this willbring to staging area
 git reset --hard HEAD~  // can not able to reset bask
 git resetgit push origin master --force
 git log --graph --oneline --decorate
+git log --all --decorate --oneline --graph
 git branch -a
 git checkout -b branchname origin/branchname
 git rm --cached "file name"
